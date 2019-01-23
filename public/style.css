@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#owl {
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+
+}
+
+.contactUsH2 {
+	font-weight: 30;
+padding: 20px;
+background-color: rgb(87, 30, 22);	
+float: left;
+}
+
+nav {
+	background-color: rgb(255, 208, 0);
+	color: yellow;
+}
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: red;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color:whitesmoke;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color:black
+}
+
+/* .welcome {
+    color: black;
+    background-color: black;
+    font-size: 20px;
+} */
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;}
+/* 
+.sidenav {
+	height: 100%; 
+    width: 160px; 
+    /* position: fixed;  */
+    /* z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: red; 
+    overflow-x: hidden; 
+	padding-top: 20px;
+	float: left;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+} */
+
+/* .sidenav a:hover {
+    color: #f1f1f1;
+} */
+
+.mainbody {
+	margin: 10px 250px 20px 200px;
+	z-index: 1000;
+	float: right;
+}
+
+.email {
+	float: right;
+}
+
+#eventupcoming {
+    float: left
