@@ -6,11 +6,21 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+ 
 
 </head>
 <body>
-    
-        <div id="mySidenav" class="sidenav">
+    <div class="container">
+            <div class="grid-example col s12"><span class="flow-text">
+            <div class="grid-example col s12 m6"><span class="flow-text">
+        <!-- <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                                     <a href="https://www.meetup.com/TGTSNBN/">meetup</a>
                     <a href="#">Follow us! </a>
@@ -24,7 +34,7 @@
              
               <div class="name">   
               <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
-            </div>
+            </div> -->
 
 
  
@@ -35,7 +45,13 @@
 
 </div>
 
-                    <h2 class= "eventtopics">Some of our events include!</h2>
+<div class="col s12 m2">
+
+
+
+    
+        <div class="z-depth-5">
+    <h2 class= "eventtopics">Some of our events include!</h2>
 <ul>    
     <li class="eventopiclist"> Trivia Nights</li>
     
@@ -56,13 +72,14 @@
                     <li class="eventopiclist">In Costume Ice Skating</li>
 </ul>
 
-
+</div>
+</div>
 <h2>Meet up info</h2>
-<button id="upcoming">Up Coming Events</button>
-<h2>Discription of a Upcoming events</h2>
-<div id = "EventUpComing"></div>
-<h2>A link to join</h2>
-<div id="web"></div>
+<button id="upcoming">To see our Next Meet Up click me!</button>
+
+<div id = "EventUpComing"></div> 
+<!-- <h2>A link to join</h2>
+<div id="web"></div>  -->
 
  
 
@@ -83,10 +100,16 @@
 <h2><a class="email" href="mailto:jrosent@gmail.com">Send us a owl!</a></h2>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="main.js"></script>
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 <script src="../meetupapi/api.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
+</span></div>
+</span></div>
+</div>
 </body>
 </html>
